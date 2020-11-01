@@ -15,3 +15,10 @@ struct Saya_KayaApp: App {
         }
     }
 }
+
+struct Saya_KayaApp_Previews: PreviewProvider {
+    static var previews: some View {
+        /*@START_MENU_TOKEN@*/Text("Hello, world!")
+            /*@END_MENU_TOKEN@*/
+    }
+}
